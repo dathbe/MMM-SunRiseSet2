@@ -39,7 +39,7 @@ css file also used to display as little or as much data as you like.
 
 * `git clone https://github.com/dathbe/MMM-SunRiseSet ~/MagicMirror/modules/MMM-SunRiseSet` into the `~/MagicMirror/modules` directory.
   
-* One dependency needed, "request" `cd MMM-SunRiseSet && npm install request`
+* One dependency needed, "request" `npm install request --prefix ~/MagicMirror/modules/MMM-SunRiseSet`
 
 * As one line to install: `git clone https://github.com/dathbe/MMM-SunRiseSet ~/MagicMirror/modules/MMM-SunRiseSet && npm install --prefix ~/MagicMirror/modules/MMM-SunRiseSet`
   
