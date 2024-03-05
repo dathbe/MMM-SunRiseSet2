@@ -1,4 +1,4 @@
-## MMM-SunRiseSet
+## MMM-SunRiseSet2
 
 More information than you ever wanted to know about the rising and setting of the sun.
 
@@ -18,7 +18,7 @@ More information than you ever wanted to know about the rising and setting of th
 
 ![](pix/1.JPG)
 
-* MMM-SunRiseSet in bottom_left region
+* MMM-SunRiseSet2 in bottom_left region
 
 ## Example animation instead of static graph
 
@@ -37,11 +37,11 @@ css file also used to display as little or as much data as you like.
 
 ## Installation
 
-* `git clone https://github.com/dathbe/MMM-SunRiseSet ~/MagicMirror/modules/MMM-SunRiseSet` into the `~/MagicMirror/modules` directory.
+* `git clone https://github.com/dathbe/MMM-SunRiseSet2 ~/MagicMirror/modules/MMM-SunRiseSet2` into the `~/MagicMirror/modules` directory.
   
-* One dependency needed, "request" `npm install request --prefix ~/MagicMirror/modules/MMM-SunRiseSet`
+* One dependency needed, "request" `npm install request --prefix ~/MagicMirror/modules/MMM-SunRiseSet2`
 
-* As one line to install: `git clone https://github.com/dathbe/MMM-SunRiseSet ~/MagicMirror/modules/MMM-SunRiseSet && npm install --prefix ~/MagicMirror/modules/MMM-SunRiseSet`
+* As one line to install: `git clone https://github.com/dathbe/MMM-SunRiseSet2 ~/MagicMirror/modules/MMM-SunRiseSet2 && npm install --prefix ~/MagicMirror/modules/MMM-SunRiseSet2`
   
 * No API key needed! 
 
@@ -50,7 +50,7 @@ css file also used to display as little or as much data as you like.
 
     {
 		disabled: false,
-		module: "MMM-SunRiseSet",
+		module: "MMM-SunRiseSet2",
 		position: "bottom_left",
 		config: {
 			lat: "41.111111",      // Your latitude (for the data)
