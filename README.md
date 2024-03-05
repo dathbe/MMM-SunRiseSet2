@@ -39,7 +39,7 @@ css file also used to display as little or as much data as you like.
 
 * `git clone https://github.com/dathbe/MMM-SunRiseSet` into the `~/MagicMirror/modules` directory.
   
-* One dependency needed requst `npm install request`
+* One dependency needed, "request" `npm install request`
   
 * No API key needed! 
 
