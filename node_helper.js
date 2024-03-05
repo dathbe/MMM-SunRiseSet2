@@ -1,5 +1,5 @@
 /* Magic Mirror
- * Module: MMM-SunRiseSet
+ * Module: MMM-SunRiseSet2
  *
  * By Mykle1
  *
