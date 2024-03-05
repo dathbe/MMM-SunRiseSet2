@@ -2,7 +2,7 @@
   "name": "mmm-sunriseset2",
   "version": "0.0.1",
   "description": "More information than you ever wanted to know about the rising and setting of the sun.",
-  "main": "MMM-SunRiseSet.js",
+  "main": "MMM-SunRiseSet2.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dathbe/MMM-SunRiseSet2.git"
