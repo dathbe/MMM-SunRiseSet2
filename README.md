@@ -68,3 +68,4 @@ css file also used to display as little or as much data as you like.
 
 ## Thanks go to SpaceCowboysDude for UTC and moment advice
 ## Thanks also to Sean and Strawberry for updateDOM guidance
+## Thanks also to mykle1 for the original module
