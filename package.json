@@ -35,5 +35,5 @@
   "homepage": "https://github.com/dathbe/MMM-SunRiseSet2",
   "devDependencies": {
     "request": "^2.88.2"
-  },
+  }
 }
