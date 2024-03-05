@@ -1,4 +1,39 @@
 {
+  "name": "mmm-sunriseset2",
+  "version": "0.0.1",
+  "description": "More information than you ever wanted to know about the rising and setting of the sun.",
+  "main": "MMM-SunRiseSet.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dathbe/MMM-SunRiseSet2.git"
+  },
+  "keywords": [
+    "magic",
+    "mirror",
+    "sun",
+    "sunrise",
+    "rise",
+    "sunset",
+    "set",
+    "daylight",
+    "time"
+  ],
+  "author": {
+    "name": "Mykle",
+    "url": "https://github.com/mykle1/"
+  },
+  "contributors": [
+    {
+      "name": "dathbe",
+      "url": "https://github.com/dathbe/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dathbe/MMM-SunRiseSet2/issues"
+  },
+  "homepage": "https://github.com/dathbe/MMM-SunRiseSet2",
   "devDependencies": {
-    "request": "^2.88.2",
+    "request": "^2.88.2"
+  },
 }
