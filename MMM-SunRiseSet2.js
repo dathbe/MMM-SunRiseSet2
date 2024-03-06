@@ -93,7 +93,7 @@ Module.register("MMM-SunRiseSet2", {
 		} else if (this.config.image == "map") {
 			var getTimeStamp = new Date().getTime(); // @Sean & @ Strawberry
 			//img.src = "http://api.usno.navy.mil/imagery/earth.png?date=today&seed=" + getTimeStamp; //
-			img.src = "https://beffalaw.com/graphics/beffalaw-banner.png";
+			img.src = "https://img.lemde.fr/2014/07/09/0/221/1160/580/2880/1440/45/0/ill_4454099_adf1_doge-image-en-tete.jpg";
 //			console.log(img.src);
 			pic.appendChild(img);
 			wrapper.appendChild(pic);
