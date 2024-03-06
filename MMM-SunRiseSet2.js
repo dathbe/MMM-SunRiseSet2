@@ -47,8 +47,7 @@ Module.register("MMM-SunRiseSet2", {
 
         var wrapper = document.createElement("div");
         wrapper.className = "wrapper";
-        //wrapper.style.maxWidth = this.config.maxWidth;
-	wrapper.style.maxHeight = "300px";
+        wrapper.style.maxWidth = this.config.maxWidth;
 
         if (!this.loaded) {
             wrapper.innerHTML = "On to the heart of the sunrise";
