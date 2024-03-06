@@ -92,13 +92,15 @@ Module.register("MMM-SunRiseSet2", {
 			wrapper.appendChild(pic);
 		} else if (this.config.image == "map") {
 			var getTimeStamp = new Date().getTime(); // @Sean & @ Strawberry
-			img.src = "http://api.usno.navy.mil/imagery/earth.png?date=today&seed=" + getTimeStamp; //
+			//img.src = "http://api.usno.navy.mil/imagery/earth.png?date=today&seed=" + getTimeStamp; //
+			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=20240306T0012&earth=1";
 //			console.log(img.src);
 			pic.appendChild(img);
 			wrapper.appendChild(pic);
 		} else {
 			var getTimeStamp = new Date().getTime(); // @Sean & @ Strawberry
-			img.src = "http://api.usno.navy.mil/imagery/earth.png?view=rise&seed=" + getTimeStamp; //
+			//img.src = "http://api.usno.navy.mil/imagery/earth.png?view=rise&seed=" + getTimeStamp; //
+			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=20240306T0012&earth=1";
 			pic.appendChild(img);
 			wrapper.appendChild(pic);
 
