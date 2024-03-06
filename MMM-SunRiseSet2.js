@@ -15,7 +15,7 @@ Module.register("MMM-SunRiseSet2", {
 		dayOrNight: "night", // "night" approaching, "day" approaching (imageOnly must be "yes")
     timeFormat: "",
         useHeader: false,                         // true if you want a header
-        header: "On to the heart of the sunrise", // Any text you want. useHeader must be true
+        header: "MMM-SunRiseSet2", // Any text you want. useHeader must be true
         maxWidth: "300px",
         animationSpeed: 3000,
         initialLoadDelay: 1250,
@@ -50,7 +50,7 @@ Module.register("MMM-SunRiseSet2", {
         wrapper.style.maxWidth = this.config.maxWidth;
 
         if (!this.loaded) {
-            wrapper.innerHTML = "On to the heart of the sunrise";
+            wrapper.innerHTML = "Loading...";
             wrapper.classList.add("bright", "light", "small");
             return wrapper;
         }
@@ -93,7 +93,7 @@ Module.register("MMM-SunRiseSet2", {
 		} else if (this.config.image == "map") {
 			var getTimeStamp = new Date().getTime(); // @Sean & @ Strawberry
 			//img.src = "http://api.usno.navy.mil/imagery/earth.png?date=today&seed=" + getTimeStamp; //
-			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=20240306T0012&earth=1";
+			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=" + getTimeStamp.getFullYear() + getTimeStamp.getDate() + getTimeStamp.getDate() + getTimeStamp.getHours() + getTimeStamp.getMinutes() + getTimeStamp.getSeconds() + "&earth=1";
 //			console.log(img.src);
 			pic.appendChild(img);
 			wrapper.appendChild(pic);
@@ -200,7 +200,7 @@ Module.register("MMM-SunRiseSet2", {
 		} else if (this.config.image == "map") {
 			var getTimeStamp = new Date().getTime(); // @Sean & @ Strawberry
 			//img.src = "http://api.usno.navy.mil/imagery/earth.png?date=today&seed=" + getTimeStamp; //
-			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=20240306T0012&earth=1";
+			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=" + getTimeStamp.getFullYear() + getTimeStamp.getDate() + getTimeStamp.getDate() + getTimeStamp.getHours() + getTimeStamp.getMinutes() + getTimeStamp.getSeconds() + "&earth=1";
 	//		console.log(img.src);
 			pic.appendChild(img);
 			wrapper.appendChild(pic);
