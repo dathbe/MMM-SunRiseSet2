@@ -239,7 +239,7 @@ Module.register("MMM-SunRiseSet2", {
     },
 
 
-    processSunRiseSet2: function(data) {
+    processSunRiseSet: function(data) {
         this.SunRiseSet2 = data;
         this.loaded = true;
     },
