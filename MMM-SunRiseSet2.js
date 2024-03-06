@@ -201,6 +201,8 @@ Module.register("MMM-SunRiseSet2", {
 		} else if (this.config.image == "map") {
 			var getTimeStamp = new Date().getTime(); // @Sean & @ Strawberry
 			var getTime = new Date()
+			//if I want to do it in one line new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"})
+			// for options, see https://stackoverflow.com/questions/3552461/how-do-i-format-a-date-in-javascript
 			//img.src = "http://api.usno.navy.mil/imagery/earth.png?date=today&seed=" + getTimeStamp; //
 			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=" + getTime.getFullYear() + getTime.getDate() + getTime.getDate() + "T" + getTime.getHours() + getTime.getMinutes() + getTime.getSeconds() + "&earth=1";
 	//		console.log(img.src);
