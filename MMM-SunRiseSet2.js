@@ -94,7 +94,8 @@ Module.register("MMM-SunRiseSet2", {
 			var getTimeStamp = new Date().getTime(); // @Sean & @ Strawberry
 			var getTime = new Date()
 			//img.src = "http://api.usno.navy.mil/imagery/earth.png?date=today&seed=" + getTimeStamp; //
-			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=" + getTime.getFullYear() + getTime.getDate() + getTime.getDate() + "T" + getTime.getHours() + getTime.getMinutes() + getTime.getSeconds() + "&earth=1";
+			//img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=" + getTime.getFullYear() + getTime.getDate() + getTime.getDate() + "T" + getTime.getHours() + getTime.getMinutes() + getTime.getSeconds() + "&earth=1";
+			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=" + getTime.getFullYear() + getTime.getDate() + getTime.getDate() + "T" + getTime.getHours() + getTime.getMinutes() + getTime.getSeconds();
 //			console.log(img.src);
 			pic.appendChild(img);
 			wrapper.appendChild(pic);
