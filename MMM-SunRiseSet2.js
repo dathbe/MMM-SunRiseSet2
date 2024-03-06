@@ -92,8 +92,9 @@ Module.register("MMM-SunRiseSet2", {
 			wrapper.appendChild(pic);
 		} else if (this.config.image == "map") {
 			var getTimeStamp = new Date().getTime(); // @Sean & @ Strawberry
+			var getTime = new Date()
 			//img.src = "http://api.usno.navy.mil/imagery/earth.png?date=today&seed=" + getTimeStamp; //
-			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=" + getTimeStamp.getFullYear() + getTimeStamp.getDate() + getTimeStamp.getDate() + getTimeStamp.getHours() + getTimeStamp.getMinutes() + getTimeStamp.getSeconds() + "&earth=1";
+			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=" + getTime.getFullYear() + getTime.getDate() + getTime.getDate() + getTime.getHours() + getTime.getMinutes() + getTime.getSeconds() + "&earth=1";
 //			console.log(img.src);
 			pic.appendChild(img);
 			wrapper.appendChild(pic);
@@ -200,7 +201,7 @@ Module.register("MMM-SunRiseSet2", {
 		} else if (this.config.image == "map") {
 			var getTimeStamp = new Date().getTime(); // @Sean & @ Strawberry
 			//img.src = "http://api.usno.navy.mil/imagery/earth.png?date=today&seed=" + getTimeStamp; //
-			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=" + getTimeStamp.getFullYear() + getTimeStamp.getDate() + getTimeStamp.getDate() + getTimeStamp.getHours() + getTimeStamp.getMinutes() + getTimeStamp.getSeconds() + "&earth=1";
+			img.src = "https://www.timeanddate.com/scripts/sunmap.php?iso=" + getTime.getFullYear() + getTime.getDate() + getTime.getDate() + getTime.getHours() + getTime.getMinutes() + getTime.getSeconds() + "&earth=1";
 	//		console.log(img.src);
 			pic.appendChild(img);
 			wrapper.appendChild(pic);
